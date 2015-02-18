@@ -1,0 +1,3 @@
+version=3
+opts=downloadurlmangle=s/#.*//,filenamemangle=s|.*/([^/]*)#.*|$1| \
+https://pypi.python.org/simple/raven ../../packages/source/r/raven/raven-(.*)\.tar\.gz#.*

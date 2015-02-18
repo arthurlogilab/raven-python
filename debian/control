@@ -1,0 +1,16 @@
+Source: raven
+Maintainer: Arthur Lutz <arthur.lutz@logilab.fr>
+Section: python
+Priority: optional
+Build-Depends: python-setuptools (>= 0.6b3), python-all (>= 2.6.6-3), debhelper (>= 7.4.3)
+Standards-Version: 3.9.6
+
+Package: python-raven
+Architecture: all
+Depends: ${misc:Depends}, ${python:Depends}
+Description: Raven is a client for Sentry (https://www.getsentry.com)
+ Raven is a Python client for Sentry http://getsentry.com/. It provides
+ full out-of-the-box support for many of the popular frameworks, including
+ Django http://djangoproject.com, Flask http://flask.pocoo.org/, and Pylons
+ http://www.pylonsproject.org/. Raven also includes drop-in support for any
+ WSGI-compatible web application.
